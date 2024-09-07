@@ -1,0 +1,66 @@
+/* Apply box-sizing globally */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+    margin: 0; /* Remove default margin */
+    padding: Auto; /* Remove default padding */
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolders;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;
+}
+
+.card {
+    padding: 0.1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.39);
+    transition: 150ms;
+}
+
+.card:hover {
+    translate: 0 -5px;
+    width: 510px;
+    height: 210px;
+}
+
+.card:active {
+    translate: 0px 5px;
+    width: 490px;
+    height: 190px;
+}
+
+p {
+    user-select: none;
+    translate: 0px -30px;
+    font-size: 20px;
+}
+
+h4 {
+    user-select: none;
+}
+
+h1 {
+    user-select: none;
+}
+
+/*
+.header {
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 10px;
+}
+*/
