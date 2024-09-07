@@ -25,7 +25,7 @@ function mousePressed() {
 */
 
 function draw() {
-  background(255);
+  background(1, 20, 5);
   
   textStyle(BOLD)
   textAlign(CENTER,CENTER)
